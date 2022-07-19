@@ -46,7 +46,7 @@ git commit -m "Se modifico el texto del menu"
 Enviar los cambios al repositorio. En nuestro caso la rama principal se llama "main"
 
 ```bash
-git push origin "nombre de la rama"
+git push origin main
 ```
 
 
