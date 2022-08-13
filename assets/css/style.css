@@ -803,8 +803,8 @@ section {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
   margin-bottom: 20px;
   background: var(--white-color);
   border-radius: 50%;
@@ -814,7 +814,7 @@ section {
   overflow: hidden;
 }
 .services .icon i {
-  font-size: 36px;
+  font-size: 60px;
   line-height: 0;
 }
 .services .icon-box:hover .icon {
