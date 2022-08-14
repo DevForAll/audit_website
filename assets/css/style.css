@@ -9,6 +9,7 @@
 # Colores de la pagina
 --------------------------------------------------------------*/
 :root {
+  --light-blue-background-color-sections: #f5f9fc;
   /* color de sombreado de la mayoria de iconos como los de redes sociales, de contacto, servicios, somos, sombrado de el menu de opciones, del color del boton Read More, 
   boton play, color de iconos, los botonoes de portafolio, boton Enviar mensaje, botones de las imagenes, boton de desplazarce arriba*/
   --dark-blue-color: #428bca;
@@ -510,7 +511,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f5f9fc;
+  background-color: var(--light-blue-background-color-sections);
 }
 
 .section-title {
@@ -533,7 +534,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background-color: #f5f9fc;
+  background-color: var(--light-blue-background-color-sections);
   min-height: 40px;
 }
 .breadcrumbs h2 {
@@ -1013,7 +1014,7 @@ section {
 # Our Team
 --------------------------------------------------------------*/
 .team {
-  background: var(--white-color);
+  /* background: var(--white-color); */
   padding: 60px 0 30px 0;
 }
 .team .member {
