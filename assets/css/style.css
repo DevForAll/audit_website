@@ -17,7 +17,8 @@
   /* color de los numero de la seccion SOMOS, sombrado de los iconos de redes sociales de las tarjetas de EQUIPO, color de puntitos de los iconos de contactos,
     sombreado de las oopciones del detalles del portafolio, el sombre de la url del proyecto de la informacion del portafolio,  
    color del signo mayor y sombreado de enlaces y el color de la empresa MGS de la seccion FOOTER */
-  --light-blue-color: #9eccf4;
+  /* --light-blue-color: #9eccf4; */
+  --light-blue-color: #71aadd;
 
   /* Color de fondo de menu para navegar, el texto del Carrusel y el texto del boton del Carrusel, icono de play del boton de seccion SOMOS, 
   fondo de los recuadros donde se muestra la cantidad de Projects, Clients, etc. El color de fondo de los iconos de los servicios, Color de fondo 
@@ -384,7 +385,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 #hero .carousel-item::before {
   content: "";
-  background-color: rgba(188, 213, 229, 0.6);
+  /* background-color: rgba(13, 30, 45, 0.6); */
   position: absolute;
   height: 100%;
   width: 100%;
@@ -516,7 +517,7 @@ section {
 
 .section-title {
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
 }
 .section-title h2 {
   font-size: 32px;
@@ -528,7 +529,6 @@ section {
 .section-title p {
   margin-bottom: 0;
 }
-
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -825,6 +825,9 @@ section {
 }
 .services .icon-box:hover .icon {
   box-shadow: 0px 0 30px rgba(66, 139, 202, 0.5);
+}
+.services .icon-color-transition i {
+  transition: all ease-in-out 0.3s;
 }
 .services .title {
   font-weight: 600;
@@ -1346,13 +1349,100 @@ section {
   color: var(--light-blue-color);
 }
 
+/*--- negrita al texto ---*/
+strong {
+  font-weight: bold;
+}
+
+
 
 
 /*--------------------------------------------------------------
 # ASESORIA CONTABLE
 --------------------------------------------------------------*/
+.normal-section {
+  /* background: var(--white-color); */
+  padding: 60px 0 60px 0;
+}
 
-/*--- negrita al texto ---*/
-strong {
-  font-weight: bold;
+.section-title-normal {
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 73px;
+}
+.section-title-normal h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #5c768d;
+}
+.section-title-normal p {
+  margin-bottom: 0;
+}
+@media (max-width: 992px) {
+  .normal-section .section-title-normal {
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 0;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# CONSULTORIA
+--------------------------------------------------------------*/
+.normal-section-cards {
+  /* background: var(--white-color); */
+  padding: 60px 0 60px 0;
+}
+
+.normal-section-cards .card-service {
+  text-align: center;
+  padding: 25px;
+  border: 0;
+  background-color: #fff;
+  box-shadow: 0px 0 25px rgba(0, 0, 0, 0.15);
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.normal-section-cards .card-service h5 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #5c768d;
+}
+
+.normal-section-cards .card-service:hover {
+  box-shadow: 0px 0 30px rgba(66, 139, 202, 0.5);
+  transition: all ease-in-out 0.5s;
+}
+
+.section-title-normal-cards p {
+  margin-bottom: 0;
+}
+@media (max-width: 992px) {
+  .normal-section-cards .section-title-normal-cards {
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 0;
+  }
+}
+
+
+
+/*--------------------------------------------------------------
+# CONTABILIDAD
+--------------------------------------------------------------*/
+.normal-section-contabilidad ul {
+  /* background: var(--white-color); */
+  padding: 0px 0px 60px 60px;
+  text-align: left;
+}
+
+@media (max-width: 992px) {
+  .normal-section-contabilidad ul {
+    padding-left: 26px;
+  }
 }
